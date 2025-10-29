@@ -70,7 +70,7 @@ os.system("clear")
 print("""
 
 """)
-‎‎# 
+‎‎# Fungsi otentikasi kata sandi
 ‎def authenticate():
 ‎password = "BASe" # The password to access the tool
 ‎user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
