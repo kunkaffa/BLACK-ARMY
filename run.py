@@ -58,15 +58,16 @@ class colors:
 os.system("clear")
 print()
 os.system("clear")
-os.system("\033[103m \033[32m")
-print("\033[37mWelcome to Zona Blackphanter\033[0m")
+os.system("\033[103m \033[32mkunkaffa3@gmail.com \033[0m")
+print("\033[101m \033[33m DILARANG NGIBUL ...!!\033[0m")
 time.sleep(5)
 print("Loading.......")
 
 attemps = 0
 os.system("clear")
-print("")
-kunkaffa3@gmail.com
+print("""
+
+""")
 # Meminta IP dan port target
 ip = input("Enter the target IP: ")
 try:
