@@ -57,7 +57,7 @@ class colors:
     GOLD = '\033[38;5;220m
 os.system("clear")
 print()
-
+kunkaffa3@gmail.com
 # Meminta IP dan port target
 ip = input("Enter the target IP: ")
 try:
