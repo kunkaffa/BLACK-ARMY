@@ -68,6 +68,17 @@ os.system("clear")
 print("""
 
 """)
+while attemps < 100:
+    username = input("\033[32mEnter your username: \033[0m")
+    password = input("\033[31mEnter your password: \033[0m")
+
+    if username == 'bp4' and password == 'bp4':
+        print("\033[32m⟩⟩ Hai...! Welcome to zona attack BLACKPHANTER \033[0m")
+        break
+    else:
+        print('Incorrect credentials. Check if you have Caps lock on and try again.')
+        attemps += 1
+        continue
 # Meminta IP dan port target
 ip = input("Enter the target IP: ")
 try:
