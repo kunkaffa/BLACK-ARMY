@@ -7,7 +7,9 @@ import time
 import threading
 import string
 import random
-os.system('clear')
+from colorama import Fore, Style, init
+import logging                                                                                                                             
+# Inisialisasi Colorama dan Logging
 
 # Clearing the SCREEN
 class colors:
