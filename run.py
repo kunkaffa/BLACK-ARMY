@@ -25,12 +25,12 @@ class colors:
 # Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
     header_lines = [ 
-    f"{Fore.GREEN}     ",
-    f"{Fore.GREEN}     ",
-    f"{Fore.GREEN}     ",
-    f"{Fore.RED}     ",
-    f"{Fore.RED}     ",
-    f"{Fore.RED}    ",
+    f"{Fore.GREEN} ██    ",
+    f"{Fore.GREEN} ██    ",
+    f"{Fore.GREEN}  ██   ",
+    f"{Fore.RED} ██    ",
+    f"{Fore.RED} ██    ",
+    f"{Fore.RED} ██    ",
     f"{Fore.RED}     ",
     f"{Fore.RED}    ",
     f"{Fore.CYAN}     ",
