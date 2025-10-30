@@ -8,7 +8,7 @@ import threading
 import string
 import random
 import fade
- 
+import colorama 
 os.system('clear')
 
 # Clearing the SCREEN
@@ -23,7 +23,7 @@ class colors:
     
 os.system('clear')
 print("""
-                                            █▒╗
+\033[32m                                            █▒╗
                                             █▒║
   ███▒╗ ███▒╗╔███▒╗ ███▒╗  ████▒╗ ███▒║  ████▒╗ ███▒╗ █▒╗ █▒╗
  █▒║ █▒║█▒║ █▒║ █▒║█▒║ █▒║█▒║    █▒║ █▒║█▒║ █▒║█▒║ █▒║█▒║ █▒║
