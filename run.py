@@ -160,7 +160,7 @@ def http_flood(ip, port, duration):
     sock.close()
 
 
-# Prompt for the type of attack
+# Prompt untuk jenis serangan
 attack_type = input(("\033[38;5;154m┗> Enter Type Attack\033[97m [1.UDP/2.HTTP/3.SYN] \033[38;5;154m"))
 
 if attack_type == "1":
