@@ -43,6 +43,11 @@ def display_header():
     for line in header_lines:
         print(line)
 
+# Versi dan IP
+    print(f"{Fore.WHITE}{Style.BRIGHT}{' ' * 57}v.1.0")
+    print(f"{Fore.CYAN}{Style.BRIGHT}{' ' * 16}https://github.com/KUNF24/PASTBLACK-DD0S.git")
+    print(f"{Fore.CYAN}|{'=' * 74}|")
+
 ‎ip = input("Enter the target IP: ")
 try:
     port = int(input("Enter the target port: "))
