@@ -45,7 +45,7 @@ logo = """
 \033[32m╚════════          JANGAN DENDAMAN MAS BRE...       ════════╝
 
 """
-def authenticate_attemps():
+def authenticate()
     ‎username = input("\033[32mEnter your username: \033[0m")
     password = input("\033[31mEnter your password: \033[0m")
 
