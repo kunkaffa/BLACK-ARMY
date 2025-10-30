@@ -7,6 +7,8 @@ import time
 import socket
 import random
 import string
+os.system("clear")
+print()
 
 # Clearing the SCREEN
 class colors:
@@ -18,8 +20,7 @@ class colors:
     MAGENTA = "\033[35m
     CYAN = "\033[36m
     
-os.system("clear")
-print()
+
 os.system("clear")
 os.system("\033[103m \033[32mkunkaffa3@gmail.com \033[0m")
 print("\033[101m \033[33m DILARANG NGIBUL ...!!\033[0m")
@@ -31,14 +32,16 @@ os.system("clear")
 print("""
 
 """)
-‎‎# Fungsi otentikasi kata sandi
+‎‎‎‎# Password authentication function
 ‎def authenticate():
-‎password = "BASe" # The password to access the tool
-‎user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
-‎if user_password != password:
-‎print("\033[1;31mIncorrect password. Exiting...\033[0m")
-‎exit()
-    
+    ‎password = "BASe" # The password to access the tool
+    ‎user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
+‎
+   if user_password != password:
+       ‎print("\033[1;31mIncorrect password. Exiting...\033[0m")
+       attemps += 1
+       ‎exit()
+‎
 # Meminta IP dan port target
 ip = input("Enter the target IP: ")
 try:
