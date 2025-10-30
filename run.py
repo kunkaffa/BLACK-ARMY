@@ -1,13 +1,15 @@
-
+#!usr/bin/python
+# _*_ coding: utf-8 _*_
 import os
-import sys
-import requests
-import time
 import socket
-import random
+import sys
+import time
+import threading
 import string
-os.system("clear")
-print()
+import random
+import fade
+ 
+os.system('clear')
 
 # Clearing the SCREEN
 class colors:
