@@ -49,8 +49,7 @@ def display_header():
     print(f"{Fore.CYAN}|{'=' * 74}|")
 
 # Meminta IP target
-try:
-    ‎ip = int(input("Enter the target IP: ")
+‎ip = int(input("Enter the target IP: ")
 try:
     port = int(input("Enter the target port: "))
 except ValueError:
