@@ -43,7 +43,6 @@ print(f"\033[97m╔{'═' * 70}╗")
 print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
 print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 27}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
-
 ‎‎# Password authentication function
 def authenticate():
     password = "kun313" # The password to access the tool
