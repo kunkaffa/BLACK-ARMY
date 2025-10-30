@@ -45,7 +45,7 @@ print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' 
 print(f"\033[97m╚{'═' * 70}╝")
 
 ‎‎# Password authentication function
-‎def authenticate():
+def authenticate():
     ‎password = "BASe" # The password to access the tool
     ‎user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
 ‎
