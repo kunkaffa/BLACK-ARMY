@@ -42,8 +42,8 @@ print("""
 \033[32m║\033[33m         ║  ║  ║   ║   ║  ║   ║   ║    ║   ║  ║   ║\033[32m        ║
 \033[32m║\033[33m         ╝     ╚   ╚══ ╚═ ╝   ╚   ╚═╝  ╚══ ╚═ ╝   ╚\033[32m        ║
 \033[32m╚════════          JANGAN DENDAMAN MAS BRE...       ════════╝
-
 """)
+
 ‎ip = input("Enter the target IP: ")
 try:
     port = int(input("Enter the target port: "))
