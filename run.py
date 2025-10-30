@@ -50,7 +50,7 @@ def display_header():
 
 # Meminta IP target
 try:
-    ‎ip = input("Enter the target IP: ")
+    ‎ip = int(input("Enter the target IP: ")
 try:
     port = int(input("Enter the target port: "))
 except ValueError:
