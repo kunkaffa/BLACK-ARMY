@@ -9,10 +9,11 @@ import string
 import random
 from colorama import Fore, Style, init
 import logging                                                                                                                             
-# Inisialisasi Colorama dan Logging
 
+# Init color & logging
+init(autoreset=True)
+logging.basicConfig()
     
-
 # Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
     header_lines = [ 
