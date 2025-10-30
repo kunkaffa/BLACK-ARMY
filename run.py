@@ -48,6 +48,7 @@ def display_header():
     print(f"{Fore.CYAN}{Style.BRIGHT}{' ' * 16}https://github.com/KUNF24/PASTBLACK-DD0S.git")
     print(f"{Fore.CYAN}|{'=' * 74}|")
 
+# Meminta IP target
 ‎ip = input("Enter the target IP: ")
 try:
     port = int(input("Enter the target port: "))
