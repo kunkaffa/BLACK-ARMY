@@ -43,7 +43,6 @@ print(f"\033[97m╔{'═' * 70}╗")
 print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
 print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 27}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
-‎‎
 while attemps < 100:
     username = input("\033[32mEnter your username: \033[0m")
     password = input("\033[31mEnter your password: \033[0m")
