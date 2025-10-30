@@ -40,8 +40,8 @@ def display_header():
     f"{Fore.YELLOW}    ",
      ]
 # Tampilkan header dengan warna
-for line in header_lines:
-    print(line)
+    for line in header_lines:
+        print(line)
 
 # Versi dan IP
     print(f"{Fore.WHITE}{Style.BRIGHT}{' ' * 57}v.1.0")
