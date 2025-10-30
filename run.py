@@ -113,7 +113,7 @@ def syn_flood(ip, port, duration):
             print("\n[*] Attack stopped.")
             sys.exit()
         finally:
-            sock.close()  # Make sure to close the socket in all cases 
+            sock.close()  # Pastikan untuk menutup soket dalam semua kasus
 # Function to perform the HTTP Flood attack
 
 def http_flood(ip, port, duration):
