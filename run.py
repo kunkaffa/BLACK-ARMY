@@ -58,16 +58,16 @@ while attemps < 100:
 
 # Meminta IP target
 print("\033[38;5;154m┏━━KunFayz━━⬣")
-ip = input("\033[38;5;154m┗> Enter the target IP: ")
+ip = input("\033[38;5;154m┗> Target IP: ")
 try:
-    port = int(input("\033[38;5;154m┗> Enter the target port: "))
+    port = int(input("\033[38;5;154m┗> Port: "))
 except ValueError:
     print("Invalid port. Exiting...")
     sys.exit()
 
 # Durasi waktu serangan (second)
 try:
-    duration = int(input("\033[38;5;154m┗> Enter the duration of the attack in seconds: "))
+    duration = int(input("\033[38;5;154m┗> Attack Duration: "))
 except ValueError:
     print("Durasi tidak valid. Keluar..")
     sys.exit()
