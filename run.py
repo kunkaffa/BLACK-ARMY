@@ -46,7 +46,6 @@ print(f"\033[97m╚{'═' * 70}╝")
 while attemps < 100:
     print("\033[32m┏━━KunFayz━━⬣")
     username = input("\033[103m\033[32m┗> Enter your username: \033[0m")
-    print("\033[32m┏━━KunFayz━━⬣")
     password = input("\033[103m\033[33m┗> Enter your password: \033[0m")
 
     if username == 'kf99' and password == 'kf99':
@@ -58,17 +57,17 @@ while attemps < 100:
         continue
 
 # Meminta IP target
-print("\033[32m┏━━KunFayz━━⬣")
-ip = input("Enter the target IP: ")
+print("\033[38;5;154m┏━━KunFayz━━⬣")
+ip = input("\033[38;5;154m┗> Enter the target IP: ")
 try:
-    port = int(input("Enter the target port: "))
+    port = int(input("\033[38;5;154m┗> Enter the target port: "))
 except ValueError:
     print("Invalid port. Exiting...")
     sys.exit()
 
 # Durasi waktu serangan (second)
 try:
-    duration = int(input("Enter the duration of the attack in seconds: "))
+    duration = int(input("\033[38;5;154m┗> Enter the duration of the attack in seconds: "))
 except ValueError:
     print("Durasi tidak valid. Keluar..")
     sys.exit()
@@ -160,8 +159,7 @@ def http_flood(ip, port, duration):
 
 
 # Prompt for the type of attack
-attack_type = input((
-    "Enter the type of attack (Choose Number) (1.UDP/2.HTTP/3.SYN): ", "green"))
+attack_type = input(("\033[38;5;154m┗> Enter the type of attack  [1.UDP/2.HTTP/3.SYN]••> \033[38;5;154m"))
 
 if attack_type == "1":
     message = b"Sending 1337 packets "
