@@ -149,7 +149,7 @@ elif attack_type == "3":
     print(("SYN attack selected", "red"))
     syn_flood(ip, port, dur)
 elif attack_type == "2":
-    print(colored("HTTP attack selected", "red"))
+    print(("HTTP attack selected", "red"))
     http_flood(ip, port, dur)
 else:
     print(colored("Invalid attack type. Exiting...", "green"))
