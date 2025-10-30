@@ -39,7 +39,8 @@ print("""
 """)
 # Versi dan IP
 print(f"\033[33m╔{'═' * 4} v.1.0{' ' * 16}╗")
-print(f"\033[33m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 16}")
+print(f"\033[33m║{' ' * 4} v.1.0{' ' * 16}║ ")
+print(f"\033[33m║{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 16}║")
 print(f"\033[33m╚{'═' * 74}╝")
 
 # Meminta IP target
