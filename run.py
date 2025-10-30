@@ -44,12 +44,12 @@ print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
 print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 27}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
 while attemps < 100:
-    print("\033[32m┏━━KunFayz━━⬣")
+    print("\033[103m┏━━KunFayz━━⬣")
     username = input("\033[32m┗> Enter your username: \033[103m ")
-    password = input("\033[32m┗> Enter your password: \033[103m ")
+    password = input("\033[32m┗> Enter your password: \033[0m")
 
     if username == 'kf99' and password == 'kf99':
-        print("\033[100m \033[32m••> ZONA FIGHT ZI0NIST \033[0m")
+        print("\033[100m \033[31m••> ZONA FIGHT ZI0NIST \033[0m")
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
