@@ -45,7 +45,7 @@ print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' 
 print(f"\033[97m╚{'═' * 70}╝")
 while attemps < 100:
     print("\033[103m┏━━KunFayz━━⬣")
-    username = input("\033[32m┗> Enter your username: \033[103m ")
+    username = input("\033[103m┗> Enter your username: \033[103m ")
     password = input("\033[32m┗> Enter your password: \033[0m")
 
     if username == 'kf99' and password == 'kf99':
