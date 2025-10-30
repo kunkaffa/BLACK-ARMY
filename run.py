@@ -4,6 +4,7 @@ import os
 import socket
 import sys
 import time
+import requests
 import threading
 import string
 import random
@@ -114,7 +115,7 @@ def syn_flood(ip, port, duration):
             sys.exit()
         finally:
             sock.close()  # Pastikan untuk menutup soket dalam semua kasus
-# Function to perform the HTTP Flood attack
+# Fungsi untuk melakukan serangan HTTP Flood
 
 def http_flood(ip, port, duration):
     # create a socket
