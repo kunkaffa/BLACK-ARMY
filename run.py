@@ -38,10 +38,10 @@ print("""
 \033[33m╚══════════════════════════════════════════════════════════════════════╝
 """)
 # Versi dan IP
-print(f"\033[33m╔{'═' * 72}╗")
-print(f"\033[33m║{' ' * 4}v.1.0{' ' * 63}║ ")
-print(f"\033[33m║{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 32}║")
-print(f"\033[33m╚{'═' * 72}╝")
+print(f"\033[33m╔{'═' * 71}╗")
+print(f"\033[33m║{' ' * 4}v.1.0{' ' * 62}║ ")
+print(f"\033[33m║{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 30}║")
+print(f"\033[33m╚{'═' * 71}╝")
 
 # Meminta IP target
 ip = input("Enter the target IP: ")
