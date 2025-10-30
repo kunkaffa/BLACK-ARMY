@@ -44,9 +44,9 @@ print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
 print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 27}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
 ‎‎# Password authentication function
-def authenticate():
+def authenticate()
     password = "kun313" # The password to access the tool
-    user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
+    user_password = getpass.getpass(prompt="\033[32mEnter the password to access the tool: \033[0m")
 ‎
     if user_password != password:
        print("\033[1;31mIncorrect password. Exiting...\033[0m")
