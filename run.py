@@ -40,7 +40,7 @@ print("""
 # Versi dan IP
 print(f"\033[97m╔{'═' * 70}╗")
 print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
-print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 25}\033[0m ║")
+print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 26}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
 
 # Meminta IP target
