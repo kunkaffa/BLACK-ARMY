@@ -49,10 +49,10 @@ logo = """
     ‎password = "BASe" # The password to access the tool
     ‎user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
 ‎
-   if user_password != password:
-       ‎print("\033[1;31mIncorrect password. Exiting...\033[0m")
-       attemps += 1
-       ‎exit()
+    if user_password != password:
+        ‎print("\033[1;31mIncorrect password. Exiting...\033[0m")
+        attemps += 1
+        ‎exit()
 ‎
 # Meminta IP dan port target
 ip = input("Enter the target IP: ")
@@ -170,5 +170,5 @@ elif attack_type == "2":
     print(("HTTP attack selected", "red"))
     http_flood(ip, port, dur)
 else:
-    print(colored("Invalid attack type. Exiting...", "green"))
+    print(("Invalid attack type. Exiting...", "green"))
     sys.exit()
