@@ -49,7 +49,7 @@ for line in header_lines:
     print(f"{Fore.CYAN}|{'=' * 74}|")
 
 # Meminta IP target
-‎ip = input("Enter the target IP: ")
+ip = input("Enter the target IP: ")
 try:
     port = int(input("Enter the target port: "))
 except ValueError:
