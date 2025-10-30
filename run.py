@@ -27,9 +27,9 @@ print("""
 """)
 
 # Versi dan IP
-    print(f"{Fore.WHITE}{Style.BRIGHT}{' ' * 57}v.1.0")
-    print(f"{Fore.CYAN}{Style.BRIGHT}{' ' * 16}https://github.com/KUNF24/PASTBLACK-DD0S.git")
-    print(f"{Fore.CYAN}|{'=' * 74}|")
+print(f"\033[33m{' ' * 57}v.1.0")
+print(f"\033[33m{' ' * 16}https://github.com/KUNF24/PASTBLACK-DD0S.git")
+print(f"\033[33m{'=' * 74}")
 
 # Meminta IP target
 ip = input("Enter the target IP: ")
