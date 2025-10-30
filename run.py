@@ -17,6 +17,7 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
     
 # Fungsi untuk Menampilkan Header BASE dengan Warna
+os.system("clear")
 def display_header():
     header_lines = [ 
     f"{Fore.GREEN} ██    ",
