@@ -19,13 +19,6 @@ class colors:
     MAGENTA = "\033[35m"
     CYAN = "\033[36m"
     
-
-os.system("clear")
-os.system("\033[103m \033[32mkunkaffa3@gmail.com \033[0m")
-print("\033[101m \033[33m DILARANG NGIBUL ...!!\033[0m")
-time.sleep(5)
-print("Loading.......")
-
 attemps = 0
 os.system("clear")
 print("""
