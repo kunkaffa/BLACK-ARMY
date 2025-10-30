@@ -7,8 +7,6 @@ import time
 import threading
 import string
 import random
-import fade
-import colorama 
 os.system('clear')
 
 # Clearing the SCREEN
