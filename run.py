@@ -17,25 +17,14 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
     
 os.system("clear")
-def display_header():
-    header_lines = [ 
-    f"{Fore.GREEN} ██    ",
-    f"{Fore.GREEN} ██    ",
-    f"{Fore.GREEN}  ██   ",
-    f"{Fore.RED} ██    ",
-    f"{Fore.RED} ██    ",
-    f"{Fore.RED} ██    ",
-    f"{Fore.RED}     ",
-    f"{Fore.RED}    ",
-    f"{Fore.CYAN}     ",
-    f"{Fore.CYAN}   ",
-    f"{Fore.CYAN}     ",
-    f"{Fore.GREEN}     ",
-    f"{Fore.YELLOW}    ",
-     ]
-# Tampilkan header dengan warna
-    for line in header_lines:
-        print(line)
+print("""
+\033[33m
++
++
++
++
+
+""")
 
 # Versi dan IP
     print(f"{Fore.WHITE}{Style.BRIGHT}{' ' * 57}v.1.0")
