@@ -37,7 +37,7 @@ print("""
     ‎password = "BASe" # The password to access the tool
     ‎user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
 ‎
-   if user_password != password:
+    if user_password != password:
        ‎print("\033[1;31mIncorrect password. Exiting...\033[0m")
        attemps += 1
        ‎exit()
