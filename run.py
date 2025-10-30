@@ -16,7 +16,7 @@ init(autoreset=True)
 
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
-attemps += 1    
+attemps = 0    
 os.system("clear")
 print("""
 \033[31m╔══════════════════════════════════════════════════════════════════════╗
@@ -43,15 +43,19 @@ print(f"\033[97m╔{'═' * 70}╗")
 print(f"\033[97m║ \033[104m{' ' * 4}v.1.0{' ' * 59}\033[0m ║")
 print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' * 27}\033[0m ║")
 print(f"\033[97m╚{'═' * 70}╝")
-‎‎# Password authentication function
-def authenticate()
-    password = "kun313" # The password to access the tool
-    user_password = getpass.getpass(prompt="\033[32mEnter the password to access the tool: \033[0m")
-‎
-    if user_password != password:
-       print("\033[1;31mIncorrect password. Exiting...\033[0m")
-       attemps += 1
-       exit()
+‎‎
+while attemps < 100:
+    username = input("\033[32mEnter your username: \033[0m")
+    password = input("\033[31mEnter your password: \033[0m")
+
+    if username == 'bp4' and password == 'bp4':
+        print("\033[32m⟩⟩ Hai...! Welcome to zona attack BLACKPHANTER \033[0m")
+        break
+    else:
+        print('Incorrect credentials. Check if you have Caps lock on and try again.')
+        attemps += 1
+        continue
+
 # Meminta IP target
 ip = input("Enter the target IP: ")
 try:
