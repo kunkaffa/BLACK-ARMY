@@ -45,8 +45,8 @@ print(f"\033[97m║ \033[104m{' ' * 4}https://www.https//kunkaffa@gmail.com{' ' 
 print(f"\033[97m╚{'═' * 70}╝")
 while attemps < 100:
     print("\033[103m┏━━KunFayz━━⬣")
-    username = input("\033[103m┗> Enter your username: \033[103m ")
-    password = input("\033[32m┗> Enter your password: \033[0m")
+    username = input("\033[32m┗> Enter your username: \033[32m ")
+    password = input("\033[32m┗> Enter your password: \033[32m")
 
     if username == 'admin' and password == 'admin':
         print("\033[100m \033[31m••> ZONA FIGHT ZI0NIST \033[0m")
